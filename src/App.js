@@ -1,14 +1,12 @@
 import { Component } from 'react'
 import './App.css'
-import ClickCounter from './components/HOCs/ClickCounter'
-import HoverCounter from './components/HOCs/HoverCounter'
+import Context from './components/Context/Context'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ClickCounter name="Edward" />
-        <HoverCounter />
+        <Context />
       </div>
     )
   }
